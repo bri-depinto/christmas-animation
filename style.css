@@ -1,0 +1,29 @@
+
+body {
+    padding:0;
+    margin:0;
+    background-color:#586c92;
+}
+.mycanvas {
+    background-color:#586c92;
+    height:450px;
+    width:400px;
+    position: absolute;
+    margin: auto;
+    left:0;
+    right:0;
+    top: 0;
+    bottom:0;
+    transform:rotate(10deg);
+    animation:nod 4s infinite;
+}
+@keyframes nod {
+    50%{
+        transform:rotate(-10deg);
+    }
+}
+.santa {
+    position: relative;
+    top:165px;
+    left: 95px;
+}
